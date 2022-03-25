@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Definindo fonte e a cor de fundo do corpo da página*/
+    background-color: rgba(208, 240, 240, 0.822);
+}
+header  {
+    border: 1px solid #000; /*Criando a borda da cabeça da página e alinhando os itens horizontalmente*/
+    padding: 1rem;
+    margin-bottom: 10px;
+    background-color: rgb(208, 240, 240, 0.882);
+    width: 97,5%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*Divide os espaços em tamanhos iguais*/
+}
+main {
+    border: 1px solid #000;  /*Criando a borda do meu contéudo principal e posicionando ela do lado esquerdo da página.*/
+    margin-bottom: 10px;
+    width: 79%;
+    float: left;
+}
+main , h1 {
+    text-indent: 20px; /*Apenas indentação*/
+}
+main , p {
+    text-indent: 5px; /*Apenas indentação*/
+}
+header ul li {
+    display: inline; /*Alinhando a lista em linha e criando sua borda para separar as palavras*/
+    border-right: 1px solid #000;
+    padding: 0 5px;  
+}
+main , aside {
+    min-height: 400px; /*Altura minima do do meu contéudo principal e da minha lateral*/
+}
+aside {
+    border: 1px solid #000; /*Criando borda para minha lateral, alinhando o texto no centro e posicioando a direita da página*/
+    text-align: center;
+    width: 20%;
+    float: right;
+}
+footer {
+    border: 1px solid #000;/* Criando a borda para meu rodapé e alinhando o texto no centro*/
+    clear: both;
+    height: 60px;
+    text-align: center;
+}
+footer, p {
+    font-style: italic; /*Definindo fonte do rodapé*/
+}
